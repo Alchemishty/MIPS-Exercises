@@ -46,5 +46,5 @@ stringUppercase:
     	la $v0, ($sp)
     	
     	lw $t0, 8($sp)
-    	addi $sp, $sp, 17
+    	addi $sp, $sp, 16
     	jr $t0
