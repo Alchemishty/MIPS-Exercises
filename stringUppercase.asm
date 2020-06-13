@@ -49,7 +49,7 @@ stringUppercase:
     
     addNull:
         sb $t1, ($v0)
-    	la $v0, STRING_UPPERCASE
+    	lw $v0, STRING_UPPERCASE
     	
     	lw $t0, RETURN_ADDRESS
     	addi $sp, $sp, STACK_SIZE
